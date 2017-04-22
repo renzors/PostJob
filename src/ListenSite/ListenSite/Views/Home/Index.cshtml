@@ -16,7 +16,7 @@
 <ul>
     @foreach (var item in Model)
     {
-        <li>Site <b>@item.Name</b> en línea, última actualización <b>@item.LastDateTime.ToShortDateString()</b> a las <b>@item.LastDateTime.ToShortTimeString()</b></li>
+        <li>Site <b>@item.Name</b> en línea, última actualización <b>@item.LastDateTime.ToShortDateString()</b> a las <b>@item.LastDateTime.ToLongTimeString()</b></li>
     }
 </ul>
 </body>

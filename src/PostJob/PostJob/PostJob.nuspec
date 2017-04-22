@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+<metadata>
+<id>PostJobExtension</id>
+<title>PostJob</title>
+<version>0.0.6</version>
+<authors>Renzo Robles</authors>
+<licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+<projectUrl>https://github.com/renzors/PostJob</projectUrl>
+<requireLicenseAcceptance>false</requireLicenseAcceptance>
+<description>An extension that performs post request frequently</description>
+<iconUrl>http://www.siteextensions.net/Content/Images/packageDefaultIcon.png</iconUrl>
+<tags>post</tags>
+</metadata>
+<files>
+  <file src="**\*.*" target="Content" />
+</files>
+</package>
