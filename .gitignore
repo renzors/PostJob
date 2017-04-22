@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/src/ListenSite/ListenSite/bin
+/src/ListenSite/ListenSite/obj/Debug
+/src/ListenSite/packages

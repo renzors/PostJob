@@ -1,0 +1,23 @@
+﻿@model List<ListenSite.Models.Site>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Monitor de Sites</title>
+</head>
+<body>
+<h1>Monitor de Sites</h1>
+    <br/>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>Site <b>@item.Name</b> en línea, última actualización <b>@item.LastDateTime.ToShortDateString()</b> a las <b>@item.LastDateTime.ToShortTimeString()</b></li>
+    }
+</ul>
+</body>
+</html>
