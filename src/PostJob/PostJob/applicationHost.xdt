@@ -13,7 +13,7 @@
          <environmentVariables>
            <add name="POST_SITE" value="http://listensite.azurewebsites.net/Home/Index" />
            <add name="DATA" value="siteName=%XDT_SITENAME%" />
-           <add name="FRECUENCY" value="5" />
+           <add name="FRECUENCY" value="60" />
          </environmentVariables>
     </runtime>
    </system.webServer>
